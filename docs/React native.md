@@ -16,4 +16,8 @@ PS C:\Users\PC\Documents\VSC Projects\Increased-Gym-App> eas init
 √ Set the project icon from icon in your app config
 ```
 
+# Start the app
+- Using `npx expo start` or `npm start` 
+- Both devices - my PC and my mobile (with Expo Go app installed) - must be on the **exact same Wi-Fi**, otherwise the scan will not work
+
 ### Folder
