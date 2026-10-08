@@ -1,7 +1,7 @@
 # Increased
 
 ## What I want it to have?
-- **Dashboard**
+- **Home**
     - General (always available)
         - Settings
         - "Increased" logo
@@ -34,4 +34,3 @@
             - Time
             - Distance
         - Difficulty (optinal - just for user to choose)
-        - 
