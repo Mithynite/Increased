@@ -6,6 +6,7 @@
         - Settings
         - "Increased" logo
         - Current day / date
+        - "Welcome" catchphrase - text will change based on *user's activity*
     - Brand new
         - Start new Workout
         - Copy previous Workout

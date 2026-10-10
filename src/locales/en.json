@@ -1,0 +1,18 @@
+
+{
+    "general": {
+        "system":{
+            "loading": "Loading...",
+            "error": "An error occurred. Please try again.",
+            "retry": "Retry"
+        },
+        "metadata": {
+            "appName": "Increased",
+            "version": "Version",
+            "buildNumber": "Build Number"
+        }
+    },
+    "home": {
+        "welcome": "Welcome back"
+    }
+}

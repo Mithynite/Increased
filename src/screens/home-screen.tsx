@@ -1,22 +1,13 @@
 import { View, Text, StyleSheet } from "react-native";
+import { globalStyles } from "../styles/global-styles";
+import { useTranslation } from "react-i18next";
+import '../locales/i18n';
 
 export default function HomeScreen() {
+    const { t } = useTranslation();
     return(
-        <View style={styles.container}>
-            <Text style={styles.title}>Home Screen</Text>
+        <View style={globalStyles.view}>
+            <Text style={globalStyles.title}>{t("dashboard.title")}</Text>
         </View>
     )
 }
-
-const styles = StyleSheet.create({
-    container: {
-        flex: 1,
-        justifyContent:"center",
-        alignItems:"center",
-        backgroundColor:"#000000",
-    },
-    title:{
-        fontSize:30,
-        color:"#FFFFFF",
-    },
-})
