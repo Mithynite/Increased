@@ -1,0 +1,18 @@
+
+{
+    "general": {
+        "system":{
+            "loading": "Načítání...",
+            "error": "Vyskytla se chyba. Prosím, zkuste to znovu.",
+            "retry": "Opakovat"
+        },
+        "metadata": {
+            "appName": "Increased",
+            "version": "Verze",
+            "buildNumber": "Číslo Buldu"
+        }
+    },
+    "home": {
+        "welcome": "Vítejte zpět"
+    }
+}

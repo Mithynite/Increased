@@ -7,7 +7,10 @@ export default function HomeScreen() {
     const { t } = useTranslation();
     return(
         <View style={globalStyles.view}>
-            <Text style={globalStyles.title}>{t("dashboard.title")}</Text>
+            <Text style={globalStyles.title}>{t("home.welcome")}</Text>
+            <View>
+                
+            </View>
         </View>
     )
 }
