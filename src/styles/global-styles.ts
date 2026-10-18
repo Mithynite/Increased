@@ -7,11 +7,26 @@ export const globalStyles = StyleSheet.create({
         width:'100%',
         height:'100%',
         display:'flex',
+        flexDirection:'column',
         justifyContent:'center',
         alignItems:'center',
     },
     title: {
-        fontSize:20,
         color:colors.text,
-    }
+    },
+    subtitle: {
+        color:colors.primary,
+    },
+    headingOne: {
+        fontSize:30,
+    },
+    headingTwo: {
+        fontSize:25,
+    },
+    headingThree: {
+        fontSize:20,
+    },
+    headingFour: {
+        fontSize:18,
+    },
 })

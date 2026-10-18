@@ -43,6 +43,7 @@ PS C:\Users\PC\Documents\VSC Projects\Increased-Gym-App> eas init
        │
        ├── /components        # Reusable UI blocks
        │    ├── /ui           # Dumb components (Buttons, Inputs)
+       │    ├── /icons        # SVG icon components 
        │    └── /layout       # Wrappers (ScreenWrapper)
        │
        ├── /storage           # AsyncStorage & Config logic
@@ -127,3 +128,50 @@ The **only component allowed to render strings.**
 
 ### Text Input
 Renders a box that opens the **device keyboard** to capture user input.
+
+# Styles
+Create stylesheets, locally or globally based.
+
+``` TypeScript
+import { StyleSheet } from "react-native";
+import { colors } from '../../theme/colors';
+
+const styles = StyleSheet.create({
+  button: {
+    backgroundColor: colors.primary,
+    color: colors.secondary,
+  },
+  container: {
+    width: "100%",
+    height: "100%",
+  }
+})
+
+interface ISuperButtonProps {
+  title: string
+}
+
+export default function SuperButton({ title }: ISuperButtonProps) {
+  return(
+    <View style={styles.container}>
+      <Pressable style={styles.button}>
+        <Text>
+          {title}
+        </Text>
+      </Pressable>
+    </View>
+  )
+}
+```
+
+## Multiple classes
+Use `[]` to merge more classes from style sheet.
+``` TypeScript
+export default function Textik(title: string) {
+  return(
+    <Text style={[styles.oneText, styles.anotherText]}>
+      {title}
+    </Text>
+  )
+}
+```
